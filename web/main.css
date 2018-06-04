@@ -8,13 +8,14 @@ body {
     text-align: center;
 }
 
-.footer-bottom {
-	position: absolute;
-	bottom: 0px;
-    background-color: #15224f;
+.footer {
+	position: fixed;
+	bottom: 0;
+	background-color: #15224f;
     min-height: 30px;
     width: 100%;
-}
+	
+    }
 .copyright {
     color: #fff;
     line-height: 30px;
@@ -27,7 +28,4 @@ body {
     min-height: 30px;
     padding: 7px 0;
     text-align: right;
-}
-.design a {
-    color: #fff;
 }
